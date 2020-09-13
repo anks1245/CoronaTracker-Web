@@ -1,0 +1,454 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+nav{
+    height: auto;
+    margin-top: -25px;
+    width: 100%;
+    background-color: rgb(0, 140, 255);
+    text-align: center;
+    font-size: 24px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    padding: 10px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.checkbox1{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    float: right;
+    margin-right: 8px;
+    margin-top: 20px;
+    display: none;
+}
+nav ul a:hover{
+    background-color: rgb(27, 164, 255);
+    padding:8px;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    color: rgb(0, 127, 231);
+    font-weight: bold;
+    margin-top: 30px;
+}
+.mcontainer{
+    
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+}
+.outcontainer{
+    height: 100px;
+    width: 20%;
+    background-color: rgb(0, 140, 255);
+    border-radius: 7px;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 10%;
+    color: white;
+}
+.innercontainer{
+    width: 97%;
+    height:60px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+#myinput{
+    font-size: 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.mcontainer2{
+    margin-top: 120px;
+    height: auto;
+    width: 100%;
+}
+.section{
+    height: 400px;
+    width: 96%;
+    background-color: rgb(0, 140, 255);
+    margin: 2%;
+    padding: 5px;
+}
+.imagecontainer1{
+    height: 380px;
+    width: 48%;
+    background-color: white;
+    padding: 10px;
+    float: left;
+}
+.content1{
+    height: 380px;
+    width: 48%;
+    padding: 10px;
+    float: right;
+}
+.imagecontainer2{
+    height: 380px;
+    width: 48%;
+    background-color: white;
+    padding: 10px;
+    float: right;
+}
+.content2{
+    height: 380px;
+    width: 48%;
+    padding: 10px;
+    float: left;
+}
+.img{
+    height: 360px;
+    width: 590px;
+}
+.section .content1 h1{
+    font-size: 36px;
+    background-color: rgb(0, 115, 223);
+    color: white;
+    height: 40px;
+}
+.section .content1 p{
+    font-size: 23px;
+    color: snow;
+}
+.section .content2 h1{
+    font-size: 36px;
+    background-color: rgb(0, 115, 223);
+    color: white;
+    height: 40px;
+}
+.section .content2 p{
+    font-size: 23px;
+    color: snow;
+}
+.mcontainer3{
+    height: auto;
+    width: 100%;
+
+    
+}
+.statewisebtn{
+    color: white;
+    background-color: rgb(0, 140, 255);
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 48px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.crcl{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    clip-path: circle(30px);
+    background-color: white;
+    color: rgb(0, 140, 255);
+}
+.mcontainer4{
+    width: 80%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+.mcontainer4 .con p{
+    font-size: 26px;
+}
+.mcontainer4 .con h1{
+    text-align: left;
+    color: rgb(0, 183, 255);
+    font-size: 64px;
+    padding-left: 10px;
+}
+.mcontainer4 ul li{
+    font-size: 28px;
+    color: rgb(88, 88, 88);
+}
+.mcontainer4 ul span{
+    font-size: 30px;
+}
+.mcontainer5{
+    width: 99.5%;
+    height: 360px;
+    background-color: rgb(0, 140, 255);
+    margin-top: 50px;
+    padding: 5px;
+}
+.leftcon{
+    height: 349px;
+    width: 55%;
+    background-color: white;
+    clip-path: polygon( 0 0 , 0 100% ,80% 100% ,100% 0 );
+    float: left;
+}
+.rightcon{
+    height: 349px;
+    width: 45%;
+    float: right;
+}
+iframe{
+    margin: 20px;
+}
+.mcontainer5 .rightcon h1{
+    color: white;
+    background-color: rgb(33, 154, 253);
+}
+.mcontainer5 .rightcon p{
+    font-size: 20px;
+}
+#check{
+    display: none;
+}
+/*w3schools*/
+.search2{
+    width: 85%;
+    
+}
+  
+  /*the container must be positioned relative:*/
+  .autocomplete {
+    left: 35%;
+    right: 35%;
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+    height: auto;
+    box-shadow: 0 10px 10px rgba(112, 181, 250, 0.822);
+  }
+  .searchbtn{
+    width: 15%;
+    float: right;
+    background-color: rgb(33, 154, 253);
+    color: white;
+    border: rgb(33, 154, 253) solid 2px;
+  }
+  input {
+    border: 1px solid transparent;
+    background-color: #dddddd;
+    padding: 5px;
+    font-size: 16px;
+  }
+  input[type=submit] {
+    background-color: DodgerBlue;
+    color: #fff;
+    cursor: pointer;
+  }
+  footer span a{
+      color: white;
+      text-decoration: none;
+  }
+  @media only screen and (max-width:768px){
+    .checkbox1{
+        display: block;
+        margin-top: -40px;
+    }
+    nav{
+        z-index: 1;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 80%;
+        text-align: center;
+        background-color: rgba(0, 140, 255, 0.767);
+        top: -100%;
+        transition: all .5s ease;
+        line-height: 50px;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #check:checked ~ ul{
+        top: 40px;
+    }
+    .autocomplete {
+        left: 10%;
+        right: 10%;
+        position: relative;
+        top: 10px;
+        display: inline-block;
+        width: 80%;
+        margin-top: 20px;
+        height: auto;
+        box-shadow: 0 10px 10px rgba(112, 181, 250, 0.822);
+      }
+      h1{
+        font-size: 36px;
+      }
+      .mcontainer{
+        height: auto;
+        width: 100%;
+        margin-top: 40px;
+    
+    }
+    .mcontainer2{
+        height: auto;
+        width: 100%;
+        background-color: rgb(0, 140, 255);
+    }
+    .outcontainer{
+        height: 100px;
+        width: 80%;
+        background-color: rgb(0, 140, 255);
+        border-radius: 7px;
+        font-size: 30px;
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 30px;
+        color: white;
+    }
+    .innercontainer{
+        width: 97%;
+        height:60px;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        background-color: white;
+        border-radius: 8px;
+        color: black;
+        text-align: center;
+        padding: 10px;
+    }
+    .section{
+        height: 580px;
+        width: 96%;
+        background-color: rgb(0, 140, 255);
+        margin: 2%;
+        padding: 5px;
+    }
+    .imagecontainer1{
+        height: 240px;
+        width: 99%;
+        background-color: white;
+        padding: 10px;
+        display: block;
+    }
+    .content1{
+        height: auto;
+        width: 90%;
+        padding: 5%;
+    }
+    .imagecontainer2{
+        height: 240px;
+        width: 99%;
+        background-color: white;
+        padding: 10px;
+        display: block;
+    }
+    .content2{
+        height: auto;
+        width: 90%;
+        padding: 1%;
+        
+    }
+    .img{
+        height: 220px;
+        width: 98%;
+    }
+    .section .content1 h1{
+        font-size: 24px;
+        background-color: rgb(0, 115, 223);
+        color: white;
+        height: auto;
+    }
+    .section .content1 p{
+        font-size: 18px;
+        color: snow;
+    }
+    .section .content2 h1{
+        font-size: 20px;
+        background-color: rgb(0, 115, 223);
+        color: white;
+        height: auto;
+    }
+    .section .content2 p{
+        font-size: 16px;
+        color: snow;
+    }
+    .mcontainer3{
+        height: auto;
+        width: 100%;
+        
+        
+    }
+    .statewisebtn{
+        color: white;
+        background-color: rgb(0, 140, 255);
+        font-size: 30px;
+        border-radius: 50px;
+        width: 75%;
+        cursor: pointer;
+        position: relative;
+        left: 60px;
+        float: right;
+    }
+    .crcl{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        clip-path: circle(20px);
+        background-color: white;
+        color: rgb(0, 140, 255);
+        padding: 5px;
+    }
+    .mcontainer4{
+        width: 80%;
+        height: auto;
+        margin-top: 120px;
+        margin-left: 5%;
+        margin-right: 15%;
+    }
+    .mcontainer4 .con p{
+        font-size: 18px;
+    }
+    .mcontainer4 .con h1{
+        text-align: left;
+        color: rgb(0, 183, 255);
+        font-size: 28px;
+        padding-left: 10px;
+    }
+    .mcontainer4 ul li{
+        font-size: 16px;
+        color: rgb(88, 88, 88);
+    }
+    .mcontainer4 ul span{
+        font-size: 16px;
+    }
+    .mcontainer5{
+        display: none;
+    }
+  }

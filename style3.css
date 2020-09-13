@@ -1,0 +1,100 @@
+.districtbox{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+}
+.databox1{
+    height: auto;
+    width: 99%;
+    margin-top: -5px;
+    margin-left: .5%;
+    margin-right: .5%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.mbox{
+    height: 35px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: white 1px solid;
+}
+.lbox{
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: darkgrey;
+    text-align: center;
+}
+.rbox{
+    width: 50%;
+    height: 34px;
+    background-color: lightgrey;
+    text-align: center;
+    float: right;
+}
+@media only screen and (max-width:768px){
+    .districtbox{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: rgb(0, 140, 255);
+        border-radius: 10px;
+        padding-bottom: 5px;
+    }
+    h2{
+        font-size: 28px;
+        color: white;
+        margin-left: 20px;
+    }
+    .databox1{
+        height: auto;
+        width: 98%;
+        margin-top: -5px;
+        margin-left: 1%;
+        margin-right: 1%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .mbox{
+        height: 23px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: white 1px solid;
+    }
+    .lbox{
+        width: 50%;
+        height: auto;
+        float: left;
+        background-color: darkgrey;
+        text-align: center;
+    }
+    .rbox{
+        width: 50%;
+        height: 22px;
+        background-color: lightgrey;
+        text-align: center;
+        float: right;
+    }
+}
